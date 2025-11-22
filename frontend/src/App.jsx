@@ -1,12 +1,10 @@
-import './App.css'
+import { Dashboard } from "./pages/admin/Dashboard.jsx";
 
-function App() {
+export function App() {
 
   return (
     <>
-      Hello World
+      <Dashboard />
     </>
   )
 }
-
-export default App
